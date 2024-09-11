@@ -1,0 +1,8 @@
+def get_weather_report(weather: str) -> str:
+    if weather == "rainy" or "cold":
+        print("Bring a Jacket")
+    elif weather == "hot":
+        print("Keep cool out there!")
+    else:
+        print("I do not recognize this weather.")
+    return weather
