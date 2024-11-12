@@ -10,3 +10,5 @@ def get_weather_report() -> str:
 
 
 print(get_weather_report())
+
+weather: str = "Caua"

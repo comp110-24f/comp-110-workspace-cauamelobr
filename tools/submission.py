@@ -52,8 +52,6 @@ def parse_file_string(path: str) -> str:
     clean_path = clean_path.replace(os.path.sep, "-")
     return clean_path
 
-
-def parse_args() -> str:
     """Ensure correct command-line arguments are provided.
     Returns:
         Path of directory or file being bundled.

@@ -1,6 +1,0 @@
-def check_first_letter(word: str, letter: str) -> str:
-    if ([0]word=letter)
-        return ("match!")
-    else
-        return ("no match!")    
-        
